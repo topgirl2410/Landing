@@ -17,10 +17,12 @@ export default function Navigation() {
         </a>
         <ul className="flex items-stretch gap-x-10">
           {navigationLinks.map((link) => (
-            <li key={link.id} className="group relative flex cursor-pointer items-center gap-x-1.75 font-medium transition-all duration-200">
+            <li key={link.id} className="group relative flex cursor-pointer items-center gap-x-1.75 
+            font-medium transition-all duration-200">
               <a href={link.href} className="text-gray-600 group-hover:text-black">{link.text}</a>
               {link.dropdown && <span className="flex size-6 items-center justify-center">
-                <CaretUp className="size-3.5 fill-gray-600 rotate-180 transition-all duration-250 group-hover:rotate-360 group-hover:fill-black" />
+                <CaretUp className="size-3.5 fill-gray-600 rotate-180 transition-all duration-250 
+                group-hover:rotate-360 group-hover:fill-black" />
               </span>}
               {link.dropdown && <DesktopDropdown links={link.dropdownLinks} />}
             </li>
@@ -29,7 +31,8 @@ export default function Navigation() {
         <div className="flex items-center gap-x-5">
           <BellIcon className="fill-gray-600 cursor-pointer hover:fill-black" />
           <SearchIcon className="fill-gray-600 cursor-pointer hover:fill-black" />
-          <button className="bg-primary-700 hover:bg-primary-800 cursor-pointer rounded-[0.625rem] px-8 py-3.5 text-lg font-medium text-white transition-all duration-200">
+          <button className="bg-primary-700 hover:bg-primary-800 cursor-pointer rounded-[0.625rem]
+           px-8 py-3.5 text-lg font-medium text-white transition-all duration-200">
             Join Now
           </button>
         </div>

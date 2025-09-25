@@ -4,8 +4,8 @@ import HeroBenefit from "./HeroBenefit";
 
 export default function Hero() {
     return (
-        <section className="relative m-auto max-w-[108rem]">
-            <div className="relative flex items-center justify-center rounded-[2.25rem] bg-[url('/public/playa.jpg')] 
+        <section className="relative m-auto max-w-[108rem] pb-200">
+            <div className="relative flex items-center justify-center rounded-[2.25rem] bg-[url('/public/playa1.jpg')] 
             bg-cover bg-bottom pb-[56.25%]">
 
                 <div className="absolute top-0 left-0 right-0 bottom-0 flex justify-center text-center">
@@ -15,11 +15,12 @@ export default function Hero() {
                     </div>
                 </div>
 
-                { /* <ul>
+                <ul className="absolute -bottom-23 mx-21.5 flex gap-x-18 rounded-[1.5rem] bg-white px-16 py-18
+                 drop-shadow-[0px_2px_40px_rgba(0,0,0,.06)]">
                     {heroBenefits.map((benefit) => (
-                        <HeroBenefit benefit={benefit} key={benefit.id} />
+                        <HeroBenefit benefit={benefit} />
                     ))}
-                </ul>*/}
+                </ul>
             </div>
         </section>
     )

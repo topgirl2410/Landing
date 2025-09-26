@@ -26,9 +26,19 @@ export default function Steps() {
           </div>
 
           <figure className="relative shrink-2 px-20">
-            <img src={cala} alt="Photo Menorca"  className="max-h-[50.8rem] rounded-[3.5rem]"/>
-           {/* <Rating />
-            <Rating />*/}
+            <img src={cala} alt="Photo Menorca" className="max-h-[50.8rem] rounded-[3.5rem]" />
+            <Rating
+              name="Tiffany Miller"
+              rating={4.6}
+              img="/headshots/tiffany.webp"
+              className="top-28 left-0"
+            />
+            <Rating
+              name="Amari Reece"
+              rating={4.9}
+              img="/headshots/amari.webp"
+              className="bottom-28 right-0"
+            />
           </figure>
         </div>
       </div>

@@ -140,7 +140,7 @@ const steps: Step[] = [
     id: 3,
     heading: "Find trips that fit your freedom",
     description:
-      "Embark on a gastronomic adventure  that transports you to distant lands, where every dish tells a story.",
+      "Look for incredible adventures that you will never forget. Experience new sensations",
   },
 ];
 

@@ -4,7 +4,7 @@ import HeroBenefit from "./HeroBenefit";
 
 export default function Hero() {
     return (
-        <section className="relative m-auto max-w-[108rem] pb-200">
+        <section className="relative m-auto max-w-[110rem] pb-40">
             <div className="relative flex items-center justify-center rounded-[2.25rem] bg-[url('/public/playa1.jpg')] 
             bg-cover bg-bottom pb-[56.25%]">
 

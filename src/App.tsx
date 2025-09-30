@@ -8,6 +8,7 @@ import Hero from "./components/Hero/Hero";
 // Main
 import Main from "./components/Main";
 import Steps from "./components/Steps/Steps";
+import Services from "./components/Services/Services";
 
 function App() {
   return <Page>
@@ -17,6 +18,7 @@ function App() {
     </Header>
     <Main>
       <Steps />
+      <Services />
     </Main>
   </Page>
 }

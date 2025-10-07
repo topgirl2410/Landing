@@ -171,7 +171,7 @@ const services: Service[] = [
 const blogPosts: BlogPost[] = [
   {
     id: "1",
-    img: "/blogs/aroundTheGlobe.webp",
+    img: "/blogs/Maldivas.jpg",
     alt: "An arial image of 4 small islands near a shoreline with 2 boats passing between them.",
     date: "Nov 19, 2024",
     title: "Stories from Around the Globe",
@@ -180,7 +180,7 @@ const blogPosts: BlogPost[] = [
   },
   {
     id: "2",
-    img: "/blogs/hiddenGems.webp",
+    img: "/blogs/islas.jpg",
     alt: "An arial shot of bungalows on the water in the Maldives",
     date: "Dec 25, 2024",
     title: "Exploring Hidden Gems",
